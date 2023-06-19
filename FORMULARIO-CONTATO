@@ -1,0 +1,46 @@
+<HTML>
+    <div class="container-form">
+        
+        <form action="https://formsubmit.co/trixstartup2023@gmail.com" method="POST">
+          <h2>Contato</h2>
+          <input type="hidden" class="field" name="_next" value="#">
+
+          <input type="text" class="field" name="Name" placeholder="Nome" />
+          <input type="email" class="field" name="email" placeholder="Email">
+          <input type="text" class="field" name="subject" placeholder="Assunto" />
+          <textarea name="mensagem" class="field" placeholder="Mensagem"></textarea>
+          <button class="btn" type="submit">Enviar</button>
+        </form>
+        <img src="img/support _ girl, woman, female, laptop, computer, seat, technology.png" alt="">
+    </div>
+    -----
+    <CSS>
+    
+.container-form{
+  display: flex;
+  align-items: center;
+  margin: 0 10%;
+  gap: 5%;
+}
+.container-form form{
+  width: 100%;
+  
+}
+.container-form img{
+  width: 50%;
+}
+form textarea{
+  resize: none;
+}
+    
+@media (max-width:850px){
+  .container-form{
+    flex-wrap: wrap;
+  }
+  .container-form img{
+    width: 100%;
+  }
+  form textarea{
+    resize: none;
+  }
+}
